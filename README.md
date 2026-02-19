@@ -10,7 +10,7 @@
 
 ## Description
 
-Ce programme utilise l’API de la [Plateforme Régionale d'Information pour la Mobilité]() (PRIM) d'[Ile De France Mobilité](https://www.iledefrance-mobilites.fr/) (IDFM).  
+Ce programme utilise l’API de la [Plateforme Régionale d'Information pour la Mobilité](https://prim.iledefrance-mobilites.fr/fr) (PRIM) d'[Ile De France Mobilité](https://www.iledefrance-mobilites.fr/) (IDFM).  
 Après avoir renseigné un code gare, le programme va demander à l’API les 5 premiers départs de cette gare et les afficher dans l’ordre de départ, comme le ferait un véritable écran d’affichage SNCF. L’actualisation des données est réalisée toutes les minutes, la taille de l’écran ComputerCraft multiblocs est détectée et le contenu est automatiquement adapté.
 
 ## Installation et utilisation
