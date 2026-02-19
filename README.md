@@ -10,12 +10,12 @@
 
 ## Description
 
-Ce programme utilise l’API de la [Plateforme Régionale d'Information pour la Mobilité]() (PRIM) d'[Ile De France Mobilité](https://www.iledefrance-mobilites.fr/$0) (IDFM).  
+Ce programme utilise l’API de la [Plateforme Régionale d'Information pour la Mobilité]() (PRIM) d'[Ile De France Mobilité](https://www.iledefrance-mobilites.fr/) (IDFM).  
 Après avoir renseigné un code gare, le programme va demander à l’API les 5 premiers départs de cette gare et les afficher dans l’ordre de départ, comme le ferait un véritable écran d’affichage SNCF. L’actualisation des données est réalisée toutes les minutes, la taille de l’écran ComputerCraft multiblocs est détectée et le contenu est automatiquement adapté.
 
 ## Installation et utilisation
 
-Créez un compte sur le site de la [PRIM](https://prim.iledefrance-mobilites.fr$0) et récupérez votre jeton (copiez-le : il ne sera affiché qu’une seule fois).
+Créez un compte sur le site de la [PRIM](https://prim.iledefrance-mobilites.fr) et récupérez votre jeton (copiez-le : il ne sera affiché qu’une seule fois).
 
 Après avoir connecté un ou plusieurs écrans au PC ComputerCraft (advanced monitor pour avoir les couleurs), entrez :
 ```
@@ -23,8 +23,8 @@ pastebin get Byas76ec tchoo
 ```
 
 Le programme va vous poser quelques questions qui seront sauvegardées dans l’ordinateur :
-* "Entrez votre jeton API" : copiez-collez-le depuis votre interface PRIM, section ["Mes jetons"](https://prim.iledefrance-mobilites.fr/fr/mes-jetons-authentification$0).
-* "Entrez votre code gare" : saisissez votre code unique de gare via [ce jeu de données](https://prim.iledefrance-mobilites.fr/fr/jeux-de-donnees/emplacement-des-gares-idf-data-generalisee$0), recherchez votre gare (filtrez en "Mode" > "Train").
+* "Entrez votre jeton API" : copiez-collez-le depuis votre interface PRIM, section ["Mes jetons"](https://prim.iledefrance-mobilites.fr/fr/mes-jetons-authentification).
+* "Entrez votre code gare" : saisissez votre code unique de gare via [ce jeu de données](https://prim.iledefrance-mobilites.fr/fr/jeux-de-donnees/emplacement-des-gares-idf-data-generalisee), recherchez votre gare (filtrez en "Mode" > "Train").
 * "Nombre de trains à afficher" : 5 par défaut.
 * "Lancer au démarrage ? y / n " : répondez "y" ou "n".
 
