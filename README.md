@@ -24,7 +24,7 @@ pastebin get Byas76ec tchoo
 
 Le programme va vous poser quelques questions qui seront sauvegardées dans l’ordinateur :
 * "Entrez votre jeton API" : copiez-collez-le depuis votre interface PRIM, section ["Mes jetons"](https://prim.iledefrance-mobilites.fr/fr/mes-jetons-authentification).
-* "Entrez votre code gare" : saisissez votre code unique de gare via [ce jeu de données](https://prim.iledefrance-mobilites.fr/fr/jeux-de-donnees/emplacement-des-gares-idf-data-generalisee), recherchez votre gare (filtrez en "Mode" > "Train").
+* "Entrez votre code gare" : saisissez votre code unique de gare via [ce jeu de données](https://prim.iledefrance-mobilites.fr/fr/jeux-de-donnees/emplacement-des-gares-idf-data-generalisee), section "Tableau", recherchez votre gare (filtrez en "Mode" > "Train"), votre code est dans la colonne "id_ref_ZdA" copiez-collez sans espaces.
 * "Nombre de trains à afficher" : 5 par défaut.
 * "Lancer au démarrage ? y / n " : répondez "y" ou "n".
 
